@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { HiShoppingCart, HiX, HiMenu } from "react-icons/hi";
 import Logo from '../assets/img/Logos/LogoBlanco.png';
 
-import "./navbar.css";
+import "./Navbar.css";
 
 
 const Navbar = () => {
