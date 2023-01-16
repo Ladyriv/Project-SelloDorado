@@ -39,18 +39,18 @@ img.LogoNavbar {
     font-family:'Henju';
 }
 .nav-links {
-    color: #ffd700;
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
     font-family:'Henju';
-    border-bottom: 3px solid #ffd700;
+    border-bottom: 3px solid none;
 }
 .HiMenu {
     margin-left: 1rem;
 }
 .nav-item {
-    line-height: 40px;
+    line-height: 20px;
     margin-right: 1rem;
 }
 .nav-item .active {
@@ -59,9 +59,9 @@ img.LogoNavbar {
 .nav-item:after {
     content: "";
     display: block;
-    height: 10px;
+    height: 2px;
     width: 0;
-    background: #ffd700;
+    background: transparent;
     transition: width 0.7s ease, background-color 0.5s ease;
 }
   
@@ -89,14 +89,15 @@ img.LogoNavbar {
     }
     .nav-menu.active {
         background: #181818;
-        left: 0px;
+        left: -35px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
     }
     .nav-item .active {
-        color: #ffd700;
+        color: #fff;
         border: none;
+
     }
     .nav-links {
         padding: 1.5rem;
@@ -105,12 +106,12 @@ img.LogoNavbar {
     }
     .nav-icon {
         display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
+        position: relative;
+        right: 5px;
+        transform: translate(-80%, 50%);
         font-size: 1.8rem;
         cursor: pointer;
         color: #ffd700;
+        align-items: center;
     }
 }    
