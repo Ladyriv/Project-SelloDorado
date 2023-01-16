@@ -1,5 +1,5 @@
 # Project-SelloDorado
-Este proyecto consiste en la creación de una aplicación web (E-commerce), donde se mostrará los diferentes productos , utilizando la librería React
+Este proyecto consiste en la creación de una aplicación web (E-commerce), donde se mostrará los diferentes productos , utilizando la librería React y demás dependencias
 
 ## Development tools 🧰
 |  Maquetación  |     Estilo    | Funcionalidad | Biblioteca  | 
@@ -26,6 +26,7 @@ The clone and deploy this project
 ```
 ```bash
   npm install -D tailwindcss
+  npm install react-router-dom
 ```
 
   
