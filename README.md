@@ -6,22 +6,26 @@ Este proyecto consiste en la creación de una aplicación web (E-commerce), dond
 |---------------|---------------|---------------|---------------|
 |   `HTML`      |     `CSS`     |`JavaScript` |`React-Tailwind` |
 
+
 ## Deploy  :computer:
 
-Para desplegar este proyecto:
+The clone and deploy this project
 
 ```bash
-  Clonar o descargar repositorio
+  Clone or download repository
   https://github.com/Ladyriv/Project-SelloDorado.git
 ```
 ```bash
-  Run File Index.html
-```
-```bash
-  Install the dependencies NodeJS
+  Install the dependencies NodeJS 
 ```
 ```bash
   npm install
+```
+```bash
+  npm run dev
+```
+```bash
+  npm install -D tailwindcss
 ```
 
   
