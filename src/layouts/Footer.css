@@ -24,14 +24,41 @@ img.img-footer{
     font-size: 20px;
     font-family:'Henju';
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 .icon.font-medium.mb-2 svg{
     color: black;
     width: 2.5rem;
     height: 30px;
     margin-left: 1.5rem ;
-    align-content: flex-end;
     margin-top: 1.5rem;
-    margin-left: 15px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        background-color: #d9d9d9;
+        display: flex;
+        width: 100%;
+        height: 18vh;
+        justify-content: space-evenly;
+        font-family:'Henju';
+        align-items: center;
+    }
+    img.img-footer{
+        width: 55px;
+        height: 55px;
+    }
+    .text.mb-4 {
+        color: #000;
+        font-size: 12px;
+        font-family:'Henju';
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+    .font-medium.mb-2.uppercase{
+        color: #000;
+        font-weight: 700;
+        font-size: 10px;
+        font-family:'Henju';
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
 }
