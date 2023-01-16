@@ -19,6 +19,7 @@ The clone and deploy this project
   Install the dependencies NodeJS 
 ```
 ```bash
+  cd name-project
   npm install
 ```
 ```bash
