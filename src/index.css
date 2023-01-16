@@ -1,0 +1,74 @@
+
+
+@font-face {
+  font-family:'Bukagi';
+  src: url('Bukagi'), url(./assets/fonts/Bukagi/Bugaki-Regular.ttf);
+}
+@font-face {
+  font-family:'Henju';
+  src: url('Henju'), url(./assets/fonts/Henju/Henju-Regular.otf);
+}
+:root {
+  font-family: Henju, Arial, sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #535353;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  height: auto;
+}
+h1{
+  color:#ffd700;
+  font-family: 'Bukagi';
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h3{
+  color:#ffd700;
+  font-family: 'Bukagi';
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logoImage{
+  width: 190px;
+  height: 200px;
+}
+.welcome{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 320px;
+  min-height: 95vh;
+  text-align: center;
+}
+h4{
+  font-family:'Henju';
+  font-size: 18px;
+
+}
+
+#checkbox-group{
+  font-family:'Henju';
+}
+.btn-pw{
+  background-color: #ffd700;
+  font-size: 16px;
+  font-family:'Henju';
+  border-color:aliceblue ;
+  border-width: 0px;
+  height: 30px;
+  width: 94px;
+  margin-top: 10px;
+}
+
